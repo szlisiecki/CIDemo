@@ -39,16 +39,16 @@ public class CalculatorServiceTest {
 		Assert.assertEquals(10, add);
 	}
 	
-	@Test
-	void should_throw_exception() {
-		// given 
-		int a = 4;
-		int b = 6;
-		
-		// when
-		int add = calculatorService.add(a, b);
-		
-		// then
-		Assert.assertEquals(11, add);
-	}
+//	@Test
+//	void should_throw_exception() {
+//		// given 
+//		int a = 4;
+//		int b = 6;
+//		
+//		// when
+//		int add = calculatorService.add(a, b);
+//		
+//		// then
+//		Assert.assertEquals(11, add);//
+//	}
 }
