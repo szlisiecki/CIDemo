@@ -26,4 +26,4 @@ jobs:
       with: 
         app-name: ${{ env.AZURE_WEBAPP_NAME }}
         publish-profile: ${{ env.AZURE_WEBAPP_PUBLISH_PROFILE }}
-        package: '${{ env.AZURE_WEBAPP_PACKAGE_PATH }}/target/OrangeCIDemo-0.0.1-SNAPSHOT.jar'
+        package: '${{ env.AZURE_WEBAPP_PACKAGE_PATH }}/target/*.jar'
