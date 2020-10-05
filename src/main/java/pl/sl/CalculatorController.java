@@ -14,10 +14,10 @@ public class CalculatorController {
 		this.calculatorService = calculatorService;
 	}
 	
-//	@GetMapping
-//	public void healthCheck() {
-//		
-//	}
+	@GetMapping
+	public String healthCheck() {
+		return "aa";
+	}
 	
 	@PostMapping("/add/{a}/{b}")
 	public int add(@PathVariable int a, @PathVariable int b) {
