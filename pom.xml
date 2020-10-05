@@ -9,9 +9,9 @@
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>pl.sl</groupId>
-	<artifactId>CIDemo</artifactId>
+	<artifactId>OrangeCIDemo</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>CIDemo</name>
+	<name>OrangeCIDemo</name>
 	<description>CI/CD Demonstration</description>
 
 	<properties>
