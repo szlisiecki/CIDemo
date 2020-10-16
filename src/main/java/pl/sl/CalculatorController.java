@@ -13,10 +13,10 @@ public class CalculatorController {
 	public CalculatorController(CalculatorService calculatorService) {
 		this.calculatorService = calculatorService;
 	}
-	
-	@GetMapping
+
+	@GetMapping("version")
 	public String healthCheck() {
-		return "aa";
+		return "1";
 	}
 	
 	@PostMapping("/add/{a}/{b}")
