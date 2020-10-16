@@ -16,7 +16,7 @@ public class CalculatorController {
 
 	@GetMapping("version")
 	public String healthCheck() {
-		return "2";
+		return "3";
 	}
 	
 	@PostMapping("/add/{a}/{b}")
