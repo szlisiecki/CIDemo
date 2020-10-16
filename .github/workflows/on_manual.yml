@@ -1,7 +1,8 @@
 name: Manual CD
 
 on:
-  workflow_dispatch:
+  push:
+    branches: [ master ]
 
 env:
   AZURE_WEBAPP_NAME: OrangeCIDemo
