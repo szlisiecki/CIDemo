@@ -1,5 +1,6 @@
 package pl.sl;
 
+import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -11,6 +12,11 @@ public class CalculatorController {
 	
 	public CalculatorController(CalculatorService calculatorService) {
 		this.calculatorService = calculatorService;
+	}
+
+	@GetMapping("version")
+	public String healthCheck() {
+		return "1";
 	}
 	
 	@PostMapping("/add/{a}/{b}")
